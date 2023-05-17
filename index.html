@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BILL SPILL</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="headings">
+      <h2>BILL</h2>
+      <h2>SPILL</h2>
+    </div>
+
+    <div class="container">
+      <div class="sideSection">
+        <div class="Amount">
+          <div class="desc">
+            <p>
+              Tip Amount<br />
+              <span>/ person</span>
+            </p>
+            <div class="tipValue">₹ 0</div>
+          </div>
+          <div class="desc">
+            <p>
+              Total<br />
+              <span>/ person</span>
+            </p>
+            <div class="tipValue">₹ 0</div>
+          </div>
+        </div>
+        <button class="reset">RESET</button>
+      </div>
+      <div class="top">
+        <div class="label">
+          <label for="input">Bill</label>
+        </div>
+
+        <div class="input-container">
+          <input type="" placeholder="0" id="input" />
+          <img src="inr.svg" alt="rupee symbol" />
+        </div>
+
+        <div class="label">
+          <label for="customTip">
+            <label for="customTip">Select Tip %</label>
+          </label>
+        </div>
+
+        <div class="buttons">
+          <button class="btn">5%</button>
+          <button class="btn">10%</button>
+          <button class="btn">15%</button>
+          <button class="btn">25%</button>
+          <button class="btn">50%</button>
+          <button class="btn">75%</button>
+          <!-- <input type="number" placeholder="Custom" id="customTip" /> -->
+        </div>
+        <div class="label">
+          <label for="people">Number of People</label>
+          <p id="ern"></p>
+        </div>
+
+        <div class="wrapper">
+          <input
+            style="text-align: right"
+            type="number"
+            placeholder="1"
+            id="people"
+          />
+
+          <img src="person.svg" alt="person pic" />
+        </div>
+        <div><button class="generate-bill">Generate Bill</button></div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+  </body>
+</html>
